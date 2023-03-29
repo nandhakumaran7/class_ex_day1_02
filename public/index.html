@@ -28,7 +28,23 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <div id="root">
+      <script>
+        function Fun(){
+          let myObject={name:"Madras"};
+          let newObject=myObject;
+          myObject.name="chennai";
+          let myArray=["a","e",'i','o'];
+          let vowelArray=myArray;
+          myArray.push("u");
+          console.log(myObject);
+          console.log(newObject);
+          console.log(myArray);
+          console.log(vowelArray);
+          alert("Check the console output!");
+        }
+      </script>
+    </div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
